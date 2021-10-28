@@ -1,0 +1,20 @@
+@use '../variables/'as *;
+
+@media (min-width: 768px) {
+  .profile {
+
+    display: flex;
+    align-items: center;
+
+    &__text {
+      inline-size: 200%;
+&>h1 {
+  @include title-name-wide;
+}
+
+&>h2 {
+  @include title-job-wide;
+}
+    }
+  }
+}

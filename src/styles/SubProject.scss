@@ -1,0 +1,40 @@
+@use '../styles/variables'as *;
+
+.project {
+
+    &-container {
+      border: 3px solid $color-border;
+      background-color: $color-bg-dark-transparent;
+      display: grid;
+      grid-template: repeat(2, 1fr) / 1fr;
+      margin: 5%;
+      inline-size: 300px;
+      block-size: 450px;
+      border-radius: $b-radius;
+    }
+
+    &__image>img {
+      inline-size: 90%;
+      block-size: 90%;
+      margin: 5%;
+      border-radius: $b-radius;
+    }
+
+    &__text {
+      padding: 5%;
+      display: grid;
+      grid-template: repeat(3, auto) / 1fr;
+
+      &--links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        & a {
+          text-decoration: none;
+          color: inherit;
+          background-color: $color-bg-light-transparent;
+          padding: 3%;
+        }
+      }
+    }
+  }

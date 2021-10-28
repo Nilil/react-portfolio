@@ -1,0 +1,19 @@
+@use './variables/'as *;
+
+.img-list {
+  list-style: none;
+  margin: 5% 0;
+
+  &>a {
+    display: flex;
+    justify-content: center;
+
+    &>img {
+      block-size: 50px;
+      inline-size: 50px;
+      background-color: $color-bg-light-transparent;
+      padding: 5%;
+      border-radius: $b-radius;
+    }
+  }
+}

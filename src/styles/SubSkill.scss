@@ -1,0 +1,16 @@
+@use '../styles/variables'as *;
+
+.skills-areas__list {
+  li {
+    margin: 20px 0;
+    border: 3px solid $color-border;
+    padding: 10px;
+    transform: rotate(-45deg);
+    inline-size: 50px;
+    border-radius: $b-radius;
+
+    img {
+      transform: rotate(45deg);
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@use '../variables/'as *;
+
+.profile {
+
+  &__image {
+    display: flex;
+    justify-content: center;
+
+    img {
+      inline-size: 50%;
+      border-radius: 50%;
+    }
+  }
+
+  &__text {
+    &>h1 {
+      @include title-name;
+    }
+
+    &>h2 {
+      @include title-job;
+    }
+  }
+}
