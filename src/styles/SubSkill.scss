@@ -1,7 +1,12 @@
 @use '../styles/variables'as *;
 
-.skills-areas__list {
-  li {
+.skill-areas-border {
+  display: grid;
+  grid-template: repeat(2, auto) / 1fr;
+
+  &>div {
+    @include skill-centered;
+
     margin: 20px 0;
     border: 3px solid $color-border;
     padding: 10px;
@@ -13,4 +18,7 @@
       transform: rotate(45deg);
     }
   }
+p {
+  @include skill-centered;
+}
 }

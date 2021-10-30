@@ -4,6 +4,7 @@ import {SubProject} from './SubProject';
 
 import '../styles/mobile/Proyects.scss';
 import '../styles/tablet/ProyectsTablet.scss';
+import '../styles/desktop/ProyectDesktop.scss';
 
 
 function Projects() {

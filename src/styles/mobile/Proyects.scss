@@ -1,5 +1,4 @@
-.project-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.project {
+  display: grid;
+  grid-template: auto / 1fr;
 }

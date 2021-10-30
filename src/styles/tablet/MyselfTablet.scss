@@ -7,14 +7,13 @@
     align-items: center;
 
     &__text {
-      inline-size: 200%;
-&>h1 {
-  @include title-name-wide;
-}
+      &>h1 {
+        @include title-name-wide;
+      }
 
-&>h2 {
-  @include title-job-wide;
-}
+      &>h2 {
+        @include title-job-wide;
+      }
     }
   }
 }

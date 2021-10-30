@@ -4,6 +4,7 @@ import {SubSkill} from './SubSkill'
 
 import '../styles/mobile/Skills.scss';
 import '../styles/tablet/SkillsTablet.scss';
+import '../styles/desktop/SkillsDesktop.scss';
 
 import sass from '../resources/sass.svg';
 import css from '../resources/css.svg';
@@ -20,52 +21,48 @@ function Skills() {
       <section className="skills">
         <h2 className="text__subtitle">Habilidades</h2>
         <section className='skills-areas'>
-            <ul className='skills-areas__list'>
-              <SubSkill
-                img = {css}
-                alt = 'CSS 3'
-                text = 'CSS 3'
-              />
-              <SubSkill
-                img = {html}
-                alt = 'HTML 5'
-                text = 'HTML 5'
-              />
-              <SubSkill
-                img = {js}
-                alt = 'Javascript (ECMAS 6)'
-                text = 'Javascript (ECMAS 6)'
-              />
-            </ul>
-            <ul className='skills-areas__list'>
-              <SubSkill
-                img = {github}
-                alt = 'Github'
-                text = 'Github'
-              />
-              <SubSkill
-                img = {react}
-                alt = 'React'
-                text = 'React'
-              />
-              <SubSkill
-                img = {sass}
-                alt = 'SASS'
-                text = 'SASS'
-              />
-            </ul>
-            <ul className='skills-areas__list'>
-              <SubSkill
-                img = {pug}
-                alt = 'PUG'
-                text = 'PUG'
-              />
-              <SubSkill
-                img = {webcomponent}
-                alt = 'Webcomponents'
-                text = 'Webcomponents'
-              />
-            </ul>
+          <div className='skills-areas__list'>
+            <SubSkill
+              img = {css}
+              alt = 'CSS 3'
+              text = 'CSS 3'
+            />
+            <SubSkill
+              img = {html}
+              alt = 'HTML 5'
+              text = 'HTML 5'
+            />
+            <SubSkill
+              img = {js}
+              alt = 'Javascript (ECMAS 6)'
+              text = 'Javascript (ECMAS 6)'
+            />
+            <SubSkill
+              img = {github}
+              alt = 'Github'
+              text = 'Github'
+            />
+            <SubSkill
+              img = {react}
+              alt = 'React'
+              text = 'React'
+            />
+            <SubSkill
+              img = {sass}
+              alt = 'SASS'
+              text = 'SASS'
+            />
+            <SubSkill
+              img = {pug}
+              alt = 'PUG'
+              text = 'PUG'
+            />
+            <SubSkill
+              img = {webcomponent}
+              alt = 'Webcomponents'
+              text = 'Webcomponents'
+            />
+          </div>
         </section>
       </section>
     </Fragment>

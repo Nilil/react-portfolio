@@ -5,10 +5,12 @@ import '../styles/SubSkill.scss';
 function SubSkill(props) {
   return (
     <Fragment>
-      <li>
+    <div className="skill-areas-border">
+      <div>
         <img src={props.img} alt={props.alt} />
-      </li>
-      <p className='text__paragraph'>{props.text}</p>
+      </div>
+        <p className='text__paragraph'>{props.text}</p>
+    </div>
     </Fragment>
     
   )

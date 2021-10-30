@@ -1,6 +1,5 @@
 @media (min-width: 768px) {
-  .skills-areas {
-    display: grid;
-    grid-template: auto / repeat(3, 1fr);
+  .skills-areas__list {
+    grid-template: repeat(4, auto) / repeat(2, 1fr);
   }
 }

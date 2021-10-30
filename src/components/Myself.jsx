@@ -8,7 +8,7 @@ function Myself () {
     <Fragment>
       <header className='profile'>
         <div className='profile__image'>
-          <img src="https://thispersondoesnotexist.com/image" alt="Perfil" />
+          <img src="https://i.imgur.com/DgKOG9R.jpg" alt="Perfil" />
         </div>
         <div className='profile__text'>
           <h1>Nilthon E. C.</h1>

@@ -33,7 +33,7 @@
   font-family: $font-body;
   text-align: center;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 100px;
 }
 
@@ -42,4 +42,10 @@
   text-align: justify;
   font-weight: 400;
   font-size: 16px;
+}
+
+@mixin skill-centered {
+  display: flex;
+  justify-self: center;
+  align-self: center;
 }

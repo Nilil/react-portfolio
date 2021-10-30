@@ -3,16 +3,14 @@
   &-areas {
 
     &__list {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
+      display: grid;
+      grid-template: repeat(8, 1fr) / 1fr;
       list-style: none;
       padding: 0;
- img {
-  block-size: 50px;
-  inline-size: 50px;
-}
+    img {
+      block-size: 50px;
+      inline-size: 50px;
+    }
     }
   }
 }

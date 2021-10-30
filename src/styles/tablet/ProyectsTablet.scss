@@ -1,6 +1,5 @@
 @media (min-width: 768px) {
   .project {
-    display: grid;
-    grid-template: 1fr / repeat(2, 1fr);
+    grid-template: auto / repeat(2, 1fr);
     }
 }
